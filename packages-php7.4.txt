@@ -33,7 +33,10 @@ php7.4-soap
 php7.4-sqlite3
 php7.4-tideways
 php7.4-tidy
+php7.4-uuid
 php7.4-xml
 php7.4-xmlrpc
 php7.4-xsl
+php7.4-yaml
 php7.4-zip
+php7.4-zmq

@@ -34,7 +34,10 @@ php7.2-soap
 php7.2-sqlite3
 php7.2-tideways
 php7.2-tidy
+php7.2-uuid
 php7.2-xml
 php7.2-xmlrpc
 php7.2-xsl
+php7.2-yaml
 php7.2-zip
+php7.2-zmq

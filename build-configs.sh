@@ -10,6 +10,7 @@ do
     mkdir -p "$DIR_NAME"
 
     cp entrypoint.sh "$DIR_NAME/entrypoint.sh"
+    chmod +x "$DIR_NAME/entrypoint.sh"
     cp sudoers "$DIR_NAME/sudoers"
 
     PHP_PACKAGES=$(cat "packages-php$PHP_VERSION.txt" | xargs)

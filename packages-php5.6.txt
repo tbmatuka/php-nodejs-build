@@ -35,4 +35,6 @@ php5.6-tidy
 php5.6-xml
 php5.6-xmlrpc
 php5.6-xsl
+php5.6-yaml
 php5.6-zip
+php5.6-zmq

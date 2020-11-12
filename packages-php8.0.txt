@@ -13,7 +13,6 @@ php8.0-gmp
 php8.0-imagick
 php8.0-imap
 php8.0-intl
-php8.0-json
 php8.0-ldap
 php8.0-mailparse
 php8.0-mbstring
@@ -29,7 +28,9 @@ php8.0-snmp
 php8.0-soap
 php8.0-sqlite3
 php8.0-tidy
+php8.0-uuid
 php8.0-xml
-php8.0-xmlrpc
 php8.0-xsl
+php8.0-yaml
 php8.0-zip
+php8.0-zmq
