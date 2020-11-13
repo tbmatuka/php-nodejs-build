@@ -21,6 +21,7 @@ RUN apt-get clean && \
         telnet \
         dnsutils \
         unzip \
+        rsync \
         inetutils-ping && \
     locale-gen en_US.UTF-8 && \
     LC_ALL=en_US.UTF-8 add-apt-repository ppa:ondrej/php && apt-get update && \
