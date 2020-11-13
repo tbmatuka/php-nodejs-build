@@ -1,8 +1,19 @@
 #!/bin/bash
 
-# separate nvm data from nvm itself
-export NVM_DIR="/var/www/nvm-volume"
-[ -s "/var/www/.nvm/nvm.sh" ] && . "/var/www/.nvm/nvm.sh"
-
 # run the command
-eval "$@"
+args="$@"
+
+if [ -z "${args}" ]
+then
+    # empty cmd
+    /bin/bash --login
+else
+    if [[ "$-" =~ i ]]
+    then
+        # interactive
+        /bin/bash --login -i -c "${args}"
+    else
+        # non-interactive
+        /bin/bash --login -c "${args}"
+    fi
+fi
