@@ -7,6 +7,10 @@ if [ -z "${args}" ]
 then
     # empty cmd
     /bin/bash --login
+elif [[ ${args} =~ ^sh\ -c\  ]]
+then
+    # most likely gitlab runnner
+    /bin/bash --login
 else
     if [[ "$-" =~ i ]]
     then
