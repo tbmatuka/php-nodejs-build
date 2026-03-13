@@ -27,7 +27,7 @@ RUN apt-get clean && \
     LC_ALL=en_US.UTF-8 add-apt-repository ppa:ondrej/php && apt-get update && \
     DEBIAN_FRONTEND=noninteractive apt-get install -y --force-yes \
         imagemagick \
-        php8.5 php8.5-amqp php8.5-apcu php8.5-bcmath php8.5-bz2 php8.5-cgi php8.5-cli php8.5-common php8.5-curl php8.5-dev php8.5-gd php8.5-gmp php8.5-imagick php8.5-imap php8.5-intl php8.5-ldap php8.5-mailparse php8.5-mbstring php8.5-memcached php8.5-mysql php8.5-odbc php8.5-opcache php8.5-pgsql php8.5-pspell php8.5-readline php8.5-redis php8.5-snmp php8.5-soap php8.5-sqlite3 php8.5-tidy php8.5-uuid php8.5-xml php8.5-xsl php8.5-yaml php8.5-zip php8.5-zmq \
+        php8.5 php8.5-amqp php8.5-apcu php8.5-bcmath php8.5-bz2 php8.5-cgi php8.5-cli php8.5-common php8.5-curl php8.5-dev php8.5-gd php8.5-gmp php8.5-imagick php8.5-imap php8.5-intl php8.5-ldap php8.5-mailparse php8.5-mbstring php8.5-memcached php8.5-mysql php8.5-odbc php8.5-pgsql php8.5-pspell php8.5-readline php8.5-redis php8.5-snmp php8.5-soap php8.5-sqlite3 php8.5-tidy php8.5-uuid php8.5-xml php8.5-xsl php8.5-yaml php8.5-zip php8.5-zmq \
         php-mail && \
     apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
